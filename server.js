@@ -10,6 +10,7 @@ const bcrypt = require('bcryptjs')
 const passport = require('passport')
 const methodOverride = require('method-override')
 const initializePassport = require('./passportConfig')
+const PORT = process.env.PORT || 3000
 
 initializePassport(
     passport, 
@@ -85,5 +86,7 @@ function notAuthenticated(req, res, next){
     next()
 }
 
-app.listen(3000)
+app.listen(PORT, function() {
+    console.log(`Now listening on PORT ${PORT}!`);
+  });
 
