@@ -2,7 +2,7 @@
 
 Node login is a very simple login made an empty array instead of a database. Thus it does not permanently store data, the user being saved for as long as the program is open.
 
-The program come from 'Web Dev Simplified'[WebDevSimplified](https://www.youtube.com/watch?v=-RCnNyD0L-s) and uses express, passport and ejs.
+The program come from [Web Dev Simplified](https://www.youtube.com/watch?v=-RCnNyD0L-s) and uses express, passport and ejs.
  
  Here is how the login opens. One will not already be registered as there is no database, so one goes to the registration page and registers(note the link to registration):
  ![Login](images/nodelogin_login.png)
