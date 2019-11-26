@@ -1,18 +1,24 @@
-<h1>Login</h1>
-<% if (messages.error) { %>
-    <%= messages.error %>
-<% } %>
-<form action='/login' method="POST">
-    <div>
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email"
-        required>
+<Link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:100,300,500"/>
+<Link href="/assets/style.css" rel="stylesheet" type="text/css"/>
+<div class="login-full-screen-container">
+    <div class="login-container">
+        <h3 class="login-title">Login</h3>
+        <% if (messages.error) { %>
+           <p class="login-message"><%= messages.error %></p>
+        <% } %>
+        <form action='/login' method="POST">
+            <div class="login-input">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email"
+                required>
+            </div>
+            <div class="login-input">
+                <label for="pasword">Password</label>
+                <input type="password" id="password" name="password"
+                required>
+            </div>
+            <button type="submit" class="login-button">Login</button>
+        </form>
+        <a class="link-to-register" href="/register">Register</a>
     </div>
-    <div>
-        <label for="pasword">Password</label>
-        <input type="password" id="password" name="password"
-        required>
-    </div>
-    <button type="submit">Login</button>
-</form>
-<a href="/register">Register</a>
+</div>
