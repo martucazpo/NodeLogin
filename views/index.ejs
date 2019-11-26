@@ -1,6 +1,10 @@
 <Link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Quicksand:100,300,500"/>
-<Link href="/assets/style.css" rel="stylesheet" type="text/css"/>
-<h1>Hi <%= name %></h1>
-<form action="/logout?_method=DELETE" method="POST">
-    <button type="submit">Log Out</button>
-</form>
+<Link href="/assets/css/index.css" rel="stylesheet" type="text/css"/>
+<div class="index-full-screen-container">
+    <div class="index-container">
+        <h1 class="name-greeting">Hi <%= name %></h1>
+        <form action="/logout?_method=DELETE" method="POST">
+            <button type="submit" class="log-out">Log Out</button>
+        </form>
+    </div>
+</div>

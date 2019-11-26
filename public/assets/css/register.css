@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+html, body {
+    margin: 0;
+}
+
+.register-full-screen-container {
+    background-image: url("/images/eddie-howell-zSLK2nw2GCQ-unsplash.jpg");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    background-color: hsla(300, 100%, 25%, .8);
+    padding: 50px 30px;
+    min-width: 400px;
+    width: 50%;
+    max-width: 600px;
+}
+
+.reg-title {
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    font-weight: normal;
+}
+
+.reg-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.reg-input label {
+    color: white;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 7px;
+}
+
+.reg-input input {
+    font-size: 1.5em;
+    padding: .1em .25em;
+    background-color: hsla(300, 100%, 75%, .3);
+    border: 1px solid hsl(300, 100%, 15%);
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: lighter;
+}
+
+.reg-input input:focus {
+    border: 1px solid hsl(300, 100%, 50%);
+}
+
+.reg-submit {
+    padding: 10px 30px;
+    background-color: hsla(300, 100%, 20%, 1);
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid hsl(300, 100%, 15%);
+    outline: none;
+    font-size: 1.5em;
+    color: white;
+    font-weight: lighter;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.reg-submit:hover {
+    background-color: hsla(300, 100%, 40%, .63);
+}
+
+.reg-submit:focus {
+    background-color: hsla(300, 100%, 40%, .83);
+}
+
+.link-to-login {
+    text-decoration: none;
+    margin:0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.55em;
+    font-weight: normal;
+    color:hsl(300, 100%, 10%);
+    cursor: pointer;
+}
