@@ -1,6 +1,6 @@
 ##Node Login
 
-Node login is from a login tutorial. It was made with an empty array instead of a database. The original program, called[Passport Node Login System](https://www.youtube.com/watch?v=-RCnNyD0L-s&t=15s), is from [Web Dev Simplified](https://www.youtube.com/watch?v=-RCnNyD0L-s) and uses express, passport and ejs.
+Node login is from a login tutorial. It was made with an empty array instead of a database. The original program, called[Passport Node Login System](https://www.youtube.com/watch?v=-RCnNyD0L-s&t=15s), is from [Web Dev Simplified](https://www.youtube.com/watch?v=-RCnNyD0L-s) and uses bcryptjs, express, passport and ejs.
 
 Since intially deploying this login, I have gone back and restyled it based on another Web Dev Simplified tutorial called ["Transparent Login Form"](https://www.youtube.com/watch?v=nLxA9froMOs). I used the tutorial to style the initial login, adjusting where necessary, using the modified the code for the registration and index views. The background images are from [Unsplash](https://unsplash.com/). The cherry blossom picture is by [Narubono](https://unsplash.com/@narubono), the purple flowers are by [Eddie Howell](https://unsplash.com/s/photos/howell), and the jellyfish are by [Zetong Li](https://unsplash.com/s/photos/zetong-li). In addition I changed the file structure so that the routes are out of the server and the script is in a separate file. 
  
