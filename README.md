@@ -9,19 +9,22 @@ Since intially deploying this program, I have gone back and restyled it based on
 In addition I changed the file structure so that the routes are now out of the server, and the script is in a file in the public folder. This change was merely recreational.
  
  Here is how the login opens. One will not already be registered as there is no database, so one goes to the registration page and registers(note the link to registration):
- ![Login](images/nodelogin_login.png)
+ ![Login](public/images/forreadme/aonopening.png)
 
 Here is the registration page filled out for the user Lettuce C.:
-![Register](images/nodelogin_register.png)
+![Register](public/images/forreadme/bregister.png)
 
 Here Lettuce has forgotten her password! (Silly Lettuce!) Note the error message:
-![Wrong](images/nodelogin_wrong_password.png)
+![WrongEmail](public/images/forreadme/cwrongemail.png)
+![WrongPassword](public/images/forreadme/dwrongpassword.png)
+
 
 Here Lettuce has correctly logged in:
-![Success](images/nodelogin_success.png)
+![Success](public/images/forreadme/esuccess.png)
+![Hashedpassword](public/images/forreadme/fuserinterminal.png)
 
 And now she logs out:
-![Logout](images/nodelogin_logout.png)
+![Logout](public/images/forreadme/gloggedout.png)
 
  Again this is a very simple login system, but I enjoyed it as a learning tool. Thanks Web Dev Simplified!
 
